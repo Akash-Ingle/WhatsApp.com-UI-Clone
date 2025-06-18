@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #fcf5eb;
+    padding: 0 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.whatsappLogo {
+    width: 120px;
+    height: 30px;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.navbar > button {
+    display: flex;
+}
+
+.features {
+    display: flex;
+}
