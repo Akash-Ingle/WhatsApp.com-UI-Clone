@@ -10,7 +10,6 @@
   width: 100vw;
   min-height: 100vh;
   background-color: #fcf5eb;
-  padding: 0 40px;
 }
 
 .navbar {
@@ -18,6 +17,7 @@
   justify-content: space-between;
   padding-top: 15px;
   align-items: center;
+  padding: 15px 35px;
 }
 
 .whatsappLogo {
@@ -106,8 +106,9 @@
   height: 600px;
   display: flex;
   flex-direction: column;
-  padding-top: 40px;
+  /* padding-top: 40px; */
   width: 100%;
+  padding: 15px 35px;
 }
 
 .maaBeti {
@@ -240,7 +241,7 @@
   width: 300px;
   position: absolute;
   right: 16%;
-  top: 72%;
+  top: 71%;
   animation: emoEmoji 2.8s ease-in-out;
 }
 
@@ -309,6 +310,7 @@
     align-items: center;
     gap: 50px;
     overflow: hidden;
+    padding: 0px 35px;
 }
 
 .secondSection > img {
@@ -338,6 +340,7 @@
   font-size: 2.8em;
   line-height: 45px;
   overflow: hidden;
+  padding-bottom: 2%;
 }
 
 .leftPart p:nth-child(2) {
@@ -376,5 +379,39 @@
 
 .rightPart > img {
   height: 570px;
+}
+
+.beach, .groupChat {
+  position: relative;
+}
+
+.beach img:nth-child(2) {
+  position: absolute;
+  width: 260px;
+  height: 250px;
+  right: 12%;
+  top: 27%;
+}
+
+.groupChat img:nth-child(2) {
+  position: absolute;
+  width: 260px;
+  height: 300px;
+  right: 8%;
+  top: 18%;
+}
+
+.grpMore::before {
+  width: 25%;
+}
+
+.bgChange {
+  background-color: #111B21;
+  padding: 50px;
+  color: white;
+}
+
+.greenText {
+  color: #25d366;
 }
 
