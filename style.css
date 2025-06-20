@@ -8,7 +8,7 @@
 
 .container {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #fcf5eb;
   padding: 0 40px;
 }
@@ -103,7 +103,7 @@
 }
 
 .firstSection {
-  height: 100%;
+  height: 600px;
   display: flex;
   flex-direction: column;
   padding-top: 40px;
@@ -155,7 +155,7 @@
   width: 300px;
   position: absolute;
   top: 3%;
-  right: 15%;
+  right: 16%;
   animation: dil 1s ease-in-out;
 }
 
@@ -239,8 +239,8 @@
 .right img:nth-child(6) {
   width: 300px;
   position: absolute;
-  right: 15%;
-  top: 74%;
+  right: 16%;
+  top: 72%;
   animation: emoEmoji 2.8s ease-in-out;
 }
 
@@ -300,4 +300,24 @@
 
 .btn {
   width: 127.23px;
+}
+
+.secondSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    overflow: hidden;
+}
+
+.secondSection > img {
+    width: 100%;
+}
+
+.secondSection > p {
+    text-align: center;
+    font-size: 2.3em;
+    letter-spacing: -1px;
+    font-weight: 700px;
 }
