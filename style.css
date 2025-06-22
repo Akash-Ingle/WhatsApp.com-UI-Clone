@@ -46,6 +46,9 @@
   border-radius: 60px;
   background-color: #25d366;
   border: 1px solid black;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .features {
@@ -481,6 +484,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   margin-top: 35px;
+  position: relative;
 }
 
 .lower > p {
@@ -504,3 +508,57 @@ hr {
   border-radius: 50%;
 }
 
+.social i:nth-child(3) {
+  text-align: center;
+  width: 40px;
+}
+
+.social i:nth-child(4) {
+  text-align: center;
+  width: 37px;
+}
+
+select {
+  padding: 15px 40px 15px 25px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 30px;
+  -webkit-appearance: none;
+}
+
+.angle {
+  position: absolute;
+  right: 15px;
+  overflow: hidden;
+}
+
+/* .btn:hover {
+  background-color: white;
+  transition: 0.7s;
+} */
+
+.btn::before {
+  border-radius: 60%;
+  scale: 1.3;
+  content: "";
+  position: absolute;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  z-index: -1;
+  transform: translateY(50px);
+  transition: 1s;
+}
+
+.btn:hover::before {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.btn:hover {
+  cursor: pointer;
+}
