@@ -551,7 +551,7 @@ select {
   opacity: 0;
   z-index: -1;
   transform: translateY(50px);
-  transition: 1s;
+  transition: 0.5s 0.2s;
 }
 
 .btn:hover::before {
@@ -561,4 +561,10 @@ select {
 
 .btn:hover {
   cursor: pointer;
+}
+
+
+.socialMedia:hover {
+  background-color: #25d366;
+  border: none;
 }
